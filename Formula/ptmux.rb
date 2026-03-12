@@ -4,7 +4,6 @@ class Ptmux < Formula
   url "https://github.com/noseglid/homebrew-ptmux/archive/refs/tags/v0.1.0.tar.gz"
   sha256 ""
   license "MIT"
-  head "https://github.com/noseglid/homebrew-ptmux.git", branch: "main"
 
   depends_on "tmux"
 
