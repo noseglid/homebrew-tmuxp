@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-config_file="${XDG_CONFIG_HOME:-$HOME/.config}/tmuxp/tmuxp.conf"
+config_file="${XDG_CONFIG_HOME:-$HOME/.config}/ptmux/ptmux.conf"
 base_path=""
 
 if [[ -f "$config_file" ]]; then
